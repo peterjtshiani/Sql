@@ -17,7 +17,10 @@ You want to rent an apartment and have the following table named Apartments:cont
 
 
 
-
-
+SELECT a.*
+FROM apartments a
+WHERE a.price > (SELECT AVG(a2.price) FROM apartments a2) AND
+      a.status = 'Not rented'
+ORDER BY a.price
 
 
