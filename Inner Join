@@ -1,0 +1,15 @@
+1) A new animal has come in, with the following details:
+name - "Slim", type - "Giraffe", country_id - 1
+Add him to the Animals table.
+2) You want to make a complete list of the animals for the zoo’s visitors. Write a query to output a new table with each animal's name, type and country fields, sorted by countries.
+
+
+
+INSERT INTO Animals (name, type, country_id) 
+VALUES('Slim', 'Giraffe', '1');
+
+SELECT a.name, a.type, c.country 
+FROM Animals as a 
+Inner Join Countries as c 
+on c.id = a.country_id 
+order by c.id DESC;
