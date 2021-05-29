@@ -1,0 +1,23 @@
+
+
+Apartments
+
+
+id	city	addresss	price	status
+1	ajekun	3234 cunnington court	600	rented
+2	labadiu	34 plantagenet house	1000	not rented
+3	cajeun	3 queens court	800	not rented
+4	kaun	23 courtlin	500	rented
+5	dajekun	7 simbiatu	700	not rented
+6	jekuni	3 freshmark court	900	not rented
+
+
+You want to rent an apartment and have the following table named Apartments:contentImageWrite a query to output the apartments whose prices are greater than the average and are also not rented, sorted by the 'Price' column.
+
+
+
+
+
+
+
+
